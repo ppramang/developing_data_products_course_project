@@ -1,0 +1,57 @@
+---
+title: "Developing Data Products Course Project"
+author: "Panagiotis Pramangioulis"
+date: "May 30, 2018"
+output:
+  slidy_presentation:
+    self_contained: no
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+This presentation is part of the Developing Data Products Coursera.org course project submission.
+
+It is an R Presentation generated with RStudio.
+
+The Shiny application pitched by this presentation is at https://ppramang.shinyapps.io/myapp/.
+
+The Shiny app source code is available at https://github.com/ppramang/developing_data_products_course_project.
+
+
+## What is the purpose of the developed Shiny app?
+
+The *Iris Quick Exploratory Analysis Shiny app* develops a generic exploratory analysis of an iris flower both a individual flower and species level. Below you can have a look of what the iris dataset contains:
+
+```{r, echo=TRUE}
+head(iris)
+```
+
+
+## What is the Content of the *Iris Quick Exploratory Analysis Shiny app*
+
+- This App has 2 sections, a sidebar which is on the left of the App and on the right is main screen that contains   the tabs.  
+- The sidebar panel have four(4) control items.  
+- Title textbox allow user to customize the main page title description.  
+- The second control item allows the user to select the continuous variable, that he wants to be displayed and     
+  analysed
+- The third item is to control how many observatrions will be showed under the Table tab.  
+- The forth item allows the user to select the displayed color of the histogram.  
+- On the Main Page, there are 5 tabs:  
+      1. The first tab displays the histogram of the dataset selected.  
+      2. The second tab show the summary  
+      3. The third tab shows the observations. The no of observations displayed is based on the number selected by user     in the slidebar.
+      4. The forth tab displays the dataset structure.
+      5. The fifth tab constitutes the Documentation of the developed data product"
+
+
+##Ready to give it a try?
+
+Use the Shiny app at https://ppramang.shinyapps.io/myapp/
+
+Get the app source code at https://github.com/ppramang/developing_data_products_course_project.
+

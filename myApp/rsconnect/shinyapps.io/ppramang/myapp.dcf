@@ -1,0 +1,10 @@
+name: myapp
+title:
+username:
+account: ppramang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 351172
+bundleId: 1400565
+url: https://ppramang.shinyapps.io/myapp/
+when: 1527689875.51646
